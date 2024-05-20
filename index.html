@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <span>Wheater</span>
+      </div>
+      <nav>
+        <ul>
+          <li class="inuse">home</li>
+          <li>catalogue</li>
+          <li>about us</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p class="title">Weather API</p>
+      <div class="container">
+        <!-- header -->
+        <div class="cont-header">
+          <div class="loc">
+            <img src="img/loc.png" alt="loc" />
+            <div>
+              <p>Latitude : <span id="lat"></span></p>
+              <p class="long2">Longitude : <span id="lon"></span></p>
+            </div>
+          </div>
+          <div class="time">
+            <img id="time" src="img/day.png" alt="" />
+          </div>
+        </div>
+        <!-- main -->
+        <div class="cloud">
+          <img id="cloud" src="img/cloud.png" alt="cloud" />
+        </div>
+        <div class="temp">
+          <span id="temp"></span>
+        </div>
+        <!-- footer -->
+        <div class="cont-footer">
+          <div class="tempF">
+            <img src="img/f.png" alt="f" />
+            <span id="far"></span>
+          </div>
+          <div class="wind">
+            <img src="img/wind.png" alt="wind" />
+            <span id="wind"></span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
